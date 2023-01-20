@@ -37,8 +37,8 @@ enum ZBID
 
 #define  __imp_SetBrokeredForeground 2522
 
-const TCHAR* WindowTitle = _T("RustDeskPrivacyWindow");
-const TCHAR* ClassName = _T("RustDeskPrivacyWindowClass");
+const TCHAR* WindowTitle = _T("RemoteamePrivacyWindow");
+const TCHAR* ClassName = _T("RemoteamePrivacyWindowClass");
 const TCHAR* DefaultBmpPath = _T("C:\\aa.bmp");
 
 typedef HWND(WINAPI* CreateWindowInBand)(_In_ DWORD dwExStyle, _In_opt_ ATOM atom, _In_opt_ LPCWSTR lpWindowName, _In_ DWORD dwStyle, _In_ int X, _In_ int Y, _In_ int nWidth, _In_ int nHeight, _In_opt_ HWND hWndParent, _In_opt_ HMENU hMenu, _In_opt_ HINSTANCE hInstance, _In_opt_ LPVOID lpParam, DWORD band);

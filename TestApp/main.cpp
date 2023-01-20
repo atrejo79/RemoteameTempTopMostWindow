@@ -123,7 +123,7 @@ int main(int argc, char* argv[])
 	}
 
 	std::this_thread::sleep_for(std::chrono::milliseconds(1 * 1000));
-	const TCHAR* WindowTitle = _T("RustDeskPrivacyWindow");
+	const TCHAR* WindowTitle = _T("RemoteamePrivacyWindow");
 	HWND hwnd = FindWindow(NULL, WindowTitle);
 	if (hwnd == NULL)
 	{
